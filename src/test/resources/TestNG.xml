@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AmazonTest" parallel="false">
+	<listeners>
+		<listener
+			class-name="com.cyclos.amazonClasses.utilitiesClasses.TestListenerClass" />
+	</listeners>
+	<test name="AmazonSearch">
+		<classes>
+		<class name="com.cyclos.amazonTestFlow.TestClassAmazon" />
+		</classes>
+	</test>
+</suite>
