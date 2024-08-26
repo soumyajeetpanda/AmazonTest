@@ -10,7 +10,7 @@ public class PageClassAmazon extends PageClassBase {
 
 	private By amazonSearchInput = By.xpath("//input[@aria-label='Search Amazon']");
 	private By clickSearchButton = By.xpath("//input[@id='nav-search-submit-button']");
-	private By elementText = By.xpath("//span[text()='Apple iPhone 11, US Version, 256GB, Purple - Unlocked (Renewed)']");
+	private By elementText = By.xpath("//span[text()='Apple iPhone 15 Pro, 128GB, Black Titanium - Unlocked (Renewed)']");
 	WebDriverWait wait = new WebDriverWait(driver, 50);
 
 	public String navigateToAmazon() throws InterruptedException {
